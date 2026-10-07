@@ -1,0 +1,46 @@
+RUTHERFORD SCATTERING ERROR ANALYSIS
+=======================================================
+
+Fit interval: 4 to 9 deg
+Number of per-degree fit points: 6
+
+VERTICAL CROSS-SECTION UNCERTAINTY:
+  Included in quadrature:
+    - Poisson counting uncertainty of Is
+    - Poisson counting uncertainty of I0
+    - detector solid-angle uncertainty
+    - foil areal-density uncertainty (currently 0 because no independent value was supplied)
+    - empirical run-to-run repeatability scatter
+
+  DeltaOmega = 0.14 +/- 0.006 sr
+  Relative DeltaOmega uncertainty = 4.286%
+  Foil areal-density relative uncertainty used = 0.000%
+  Median repeatability term in fit range = 2.612%
+  Maximum repeatability term in fit range = 21.935%
+
+ANGULAR UNCERTAINTY:
+  Full plotted sigma_theta = 1.500 deg (1 sigma)
+  Point-to-point angle sigma used in chi-square = 1.000 deg
+  Common zero-offset sigma in covariance = 0.500 deg
+
+GOODNESS OF FIT:
+  Absolute Z=79 theory: chi2 = 1.326, dof = 6, reduced chi2 = 0.221, p = 0.9702
+  Best-fit Rutherford shape y=m*csc^4(theta/2): chi2 = 0.5674, dof = 5, reduced chi2 = 0.1135, p = 0.9894
+  Diagnostic y=m*csc^4(theta/2)+b: chi2 = 0.61, dof = 4, reduced chi2 = 0.1525, p = 0.962
+
+BEST-FIT NORMALIZATION:
+  Z_fit = 61.62
+  point-to-point + common-angle sigma_Z = 11.55
+  common-normalization sigma_Z = 1.359
+  combined sigma_Z = 11.63
+  |Z_fit - 79| / combined sigma_Z = 1.495
+
+IMPORTANT CAVEAT:
+  The primary quantitative fit uses 4--9 deg; 10--13 deg remain as high-angle diagnostics.
+  The chi-square now separates point-to-point from correlated systematics.
+  I0, DeltaOmega, and the common zero-angle calibration are carried through
+  covariance terms rather than repeated independently at every angle.
+  The free-normalization Rutherford shape fit does not count I0/DeltaOmega
+  as point-to-point scatter because the fitted slope absorbs a common scale.
+  The foil areal-density uncertainty is not included until an independent uncertainty
+  is available from the foil log / weighing procedure.

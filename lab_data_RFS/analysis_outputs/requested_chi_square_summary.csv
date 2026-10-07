@@ -1,0 +1,7 @@
+dataset,angle_min_requested_deg,angle_max_requested_deg,actual_angles_used_deg,n_points,test,chi2,dof,reduced_chi2,p_value,fitted_Z,sigma_Z_total
+Per-degree scan: 4-9 deg,4.0,9.0,"4, 5, 6, 7, 8, 9",6,"Absolute Rutherford theory, Z=79",1.3260671204779106,6,0.22101118674631845,0.9702008959891487,,
+Per-degree scan: 4-9 deg,4.0,9.0,"4, 5, 6, 7, 8, 9",6,"Rutherford shape, y=m*csc^4(theta/2)",0.5674211544100181,5,0.11348423088200361,0.9894462464513215,61.62469906856761,11.625634284849836
+Per-degree scan: requested 0-13 deg (0 excluded; uses nonzero angles),0.0,13.0,"1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13",13,"Absolute Rutherford theory, Z=79",8.38802609468459,13,0.6452327765141993,0.817434868263873,,
+Per-degree scan: requested 0-13 deg (0 excluded; uses nonzero angles),0.0,13.0,"1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13",13,"Rutherford shape, y=m*csc^4(theta/2)",6.633080439299303,12,0.552756703274942,0.8808787906139885,50.654289097293216,6.278777823916324
+"Combined fixed-angle runs: 3, 8, 13 deg",3.0,13.0,"3, 8, 13",3,"Absolute Rutherford theory, Z=79",4.567695485901281,3,1.5225651619670935,0.20633090445725433,,
+"Combined fixed-angle runs: 3, 8, 13 deg",3.0,13.0,"3, 8, 13",3,"Rutherford shape, y=m*csc^4(theta/2)",4.251047044522369,2,2.1255235222611844,0.11937045881308564,50.211958906399275,9.834055598823614

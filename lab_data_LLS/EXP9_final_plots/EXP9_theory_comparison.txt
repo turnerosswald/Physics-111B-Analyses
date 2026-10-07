@@ -1,0 +1,45 @@
+========================================================================
+EXPERIMENT IX — COMPARISON OF MEASURED NOISE WITH THEORY
+========================================================================
+Theory used: V_total = sqrt(V_Johnson^2 + V_SR830,input^2)
+Expected white-noise scaling: V ∝ ENBW^(1/2) ∝ tau^(-1/2)
+Measured quantity: mean across runs of <dR^2>^(1/2)
+
+100 kOhm
+--------
+tau        ENBW (Hz)    measured (V)       theory (V)         meas/theory    % difference
+   30 ms        2.604     1.2141e-07 ± 4.88e-08     6.6127e-08        1.836       +83.61%
+  100 ms       0.7812     2.5378e-08 ± 1.30e-09     3.6219e-08        0.701       -29.93%
+  300 ms       0.2604     1.4539e-08 ± 1.20e-09     2.0911e-08        0.695       -30.47%
+     1 s      0.07812     5.0747e-09 ± 4.82e-10     1.1454e-08        0.443       -55.69%
+     3 s      0.02604     2.6773e-09 ± 6.29e-10     6.6127e-09        0.405       -59.51%
+
+Mean measured/theory ratio = 0.816 (perfect agreement = 1.000; sqrt(2) = 1.414)
+Mean absolute percent difference = 51.84%
+RMS percent difference = 55.60%
+Measured log-log slope vs ENBW = 0.804 (white-noise theory = +0.500)
+Measured log-log slope vs tau = -0.804 (white-noise theory = -0.500)
+
+Summary: the 100 kOhm data show a noticeable quantitative discrepancy from total theory.
+The ENBW slope should be compared with +0.5 and the time-constant slope with -0.5 to test the expected white-noise dependence.
+The measured/theory ratio is also listed next to sqrt(2), because Experiment IX explicitly asks you to consider the SR830 R-magnitude effect.
+
+10 kOhm
+-------
+tau        ENBW (Hz)    measured (V)       theory (V)         meas/theory    % difference
+   30 ms        2.604     1.8425e-08 ± 2.15e-09     2.3457e-08        0.785       -21.45%
+  100 ms       0.7812     9.8854e-09 ± 6.15e-10     1.2848e-08        0.769       -23.06%
+  300 ms       0.2604     7.9533e-09 ± 1.07e-09     7.4177e-09        1.072        +7.22%
+     1 s      0.07812     8.9688e-09 ± 2.48e-09     4.0629e-09        2.207      +120.75%
+     3 s      0.02604     2.6190e-09 ± 5.29e-10     2.3457e-09        1.117       +11.65%
+
+Mean measured/theory ratio = 1.190 (perfect agreement = 1.000; sqrt(2) = 1.414)
+Mean absolute percent difference = 36.83%
+RMS percent difference = 56.14%
+Measured log-log slope vs ENBW = 0.346 (white-noise theory = +0.500)
+Measured log-log slope vs tau = -0.346 (white-noise theory = -0.500)
+
+Summary: the 10 kOhm data show a noticeable quantitative discrepancy from total theory.
+The ENBW slope should be compared with +0.5 and the time-constant slope with -0.5 to test the expected white-noise dependence.
+The measured/theory ratio is also listed next to sqrt(2), because Experiment IX explicitly asks you to consider the SR830 R-magnitude effect.
+
